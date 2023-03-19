@@ -15,11 +15,13 @@ int main(void)
 
 {
 
-	int i;
+	int h;
 
-	for (i = 0; i < 10; i++)
-	printf("%d", i);
-	printf("\n");
+	for (h = '0'; h <= '9'; h++)
+	putchar(h);
+	putchar('\n');
+
 	return (0);
 
-} 
+}
+
