@@ -6,7 +6,7 @@
   * @a: Array of integers
   * @n: Number of elements of the array
   *
-  * Return: Array of integers
+  * Return: Array of integers printed
   */
 void print_array(int *a, int n)
 {
